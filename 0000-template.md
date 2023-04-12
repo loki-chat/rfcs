@@ -2,6 +2,7 @@
 
 <!-- Fill these out once the PR has been created. Remember to remove comments once they're no longer applicable. -->
 
+- Status: Pending
 - Start Date: <!-- Insert today's date here, YYYY-MM-DD -->
 - RFC PR: [#0](https://github.com/loki-chat/rfcs/pull/0) <!-- Update with link to PR after merging. -->
 - Tracking issue: N/A <!-- When this RFC is made active, add link in the form of [<repo name>#0](https://github.com/loki-chat/<repo name>/issues/0) if applicable. -->
