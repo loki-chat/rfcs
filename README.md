@@ -8,13 +8,15 @@ Most things, like regular feature ideas, can be done through issues, and probabl
 
 ## Lifecycle of an RFC
 
-RFCs have four stages:
+RFCs have five different stages they can go through:
 
 - **Pending:** The RFC has been submitted as a pull request.
 - **Active:** The RFC pull request has been merged and will be implemented/enacted.
 - **Landed:** The proposed RFC has been enacted or implemented in a shipped release.
 - **Rejected:** The RFC pull request has been closed.
 - **Obsolete:** The RFC was previously active or landed, but has been superceded or is otherwise no longer relevant.
+
+Active, landed, and obsolete RFCs each have their own directory.
 
 ## When to follow this process
 
@@ -31,9 +33,11 @@ Some decisions probably do not require an RFC, such as implementation details sp
 	- Write your RFC. Put care into this step. If you're unmotivated, show a lack of understanding, or are disingenuous about drawbacks or alternatives, your RFC is more likely to be rejected. Feel free to read existing active RFCs to gain a better understanding of what is expected.
 	- Once you're done, submit a pull request outlining the basics of your proposal.
 	- Now that you've made a pull request, fill out the fields at the top of it based on the instructions in the comments.
-3. Receive feedback.
-	- You can modify your RFC based on feedback from others, and changes may be requested.
-	- Once the team feels the RFC has been discussed thoroughly and that it is at a point where it is largely agreed upon, a member may squash and merge the pull request. The pull request may also be closed if the RFC is deemed undesired, or a different RFC replaced it.
+3. Receive feedback. You can modify your RFC based on feedback from others, and changes may be requested.
+4. Have it be accepted or rejected.
+	- Once the team feels the RFC has been discussed thoroughly and that it is at a point where it is largely agreed upon, a member may update the status within the file to active or landed, move it to the `active` or `landed` directory, give it the number of the pull request padded to 4 digits, and then squash and merge the pull request.
+	- The pull request may also be closed if the RFC is deemed undesired, or a different RFC replaced it.
+	- Not all RFCs go through the active stage. Those that don't involve extra steps to be enacted, such as guidelines, may pass directly to the landed stage.
 
 ## Active RFCs
 
