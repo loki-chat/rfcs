@@ -6,6 +6,7 @@
 - Start Date: <!-- Insert today's date here, YYYY-MM-DD -->
 - RFC PR: [#0](https://github.com/loki-chat/rfcs/pull/0) <!-- Update with link to PR after merging. -->
 - Tracking issue: N/A <!-- When this RFC is made active, add link in the form of [<repo name>#0](https://github.com/loki-chat/<repo name>/issues/0) if applicable. -->
+- Supercedes: N/A <!-- Path to the RFC(s) that this one made obsolete, if applicate. Format: [0000](../obsolete/0000-name.md) -->
 
 ## Summary
 

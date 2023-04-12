@@ -45,6 +45,8 @@ Once an RFC becomes active, a tracking issue may be created in the appropriate r
 
 Small modifications to active RFCs can be done through followup pull requests. We should strive to write each RFC such that it reflects the final design of the feature, however, new ideas and such may come up that warrant changing an RFC. Major changes, to the extent that they would substantially change the RFC, might warrant a new RFC that would result in the original being marked as obsolete.
 
+When an RFC is marked as obsolete, after the status, `(Superceded by [0000](../active/0000-name.md))` should be appended. Multiple RFCs here can be separated by commas.
+
 ## Implementing an RFC
 
 The author of an RFC is not obligated to implement it. Of course, they are welcome to, as is any other developer, once the RFC has been accepted.
