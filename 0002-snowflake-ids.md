@@ -63,7 +63,7 @@ What other solutions have been considered? Why this solution rather than them? W
 
 - A custom format was proposed, though it was discarded for being unproven and providing little benefit over snowflakes.
 - Including a hash of the origin instance's domain name was considered, assuming federation would be supported, though it was dismissed for its high risk of hash collisions, dealing with which would mean taking bits away from the other parts of the ID that provide more effective means of ID collisions.
-- UUIDv7 was proposed, though it does not appear to have much benefit over snowflakes, while being twice as long.
+- UUIDv7 was proposed, though it does not appear to have much benefit over snowflakes, and its greater size does not seem necessary or useful at the moment. Later migration remains an option if needed.
 - Not specifying an ID loses the benefits mentioned in the [Motivation](#motivation) section.
 
 ## Prior art
