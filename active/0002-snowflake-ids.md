@@ -2,7 +2,7 @@
 
 <!-- Fill these out once the PR has been created. Remember to remove comments once they're no longer applicable. -->
 
-- Status: Pending
+- Status: Active
 - Start Date: 2023-04-13
 - RFC PR: [#2](https://github.com/loki-chat/rfcs/pull/2)
 - Tracking issue: N/A <!-- When this RFC is made active, add link in the form of [<repo name>#0](https://github.com/loki-chat/<repo name>/issues/0) if applicable. -->
